@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="Hg2QiMDMZCxlW7KKwAO4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="os53J_kxRLELNh4WxYDw-1" value="Customer" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="430" width="128" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-3" value="Restaurant" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="410" width="114" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-4" value="Delivery Person" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="170" y="410" width="190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-5" value="Food Order" style="startArrow=none;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="os53J_kxRLELNh4WxYDw-1">
+          <mxGeometry x="0.1239" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="10" />
+              <mxPoint x="330" y="10" />
+              <mxPoint x="330" y="198" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="410" as="sourcePoint" />
+            <mxPoint x="424" y="197.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-6" value="Order Request" style="startArrow=none;endArrow=block;exitX=0.977;exitY=0.551;entryX=0.75;entryY=0;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="os53J_kxRLELNh4WxYDw-10" target="os53J_kxRLELNh4WxYDw-3">
+          <mxGeometry x="0.8436" y="17" relative="1" as="geometry">
+            <mxPoint x="162.8571428571429" y="201" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-7" value="Bill &amp; Management Report" style="startArrow=none;endArrow=block;entryX=0.175;entryY=0;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="os53J_kxRLELNh4WxYDw-10" target="os53J_kxRLELNh4WxYDw-3">
+          <mxGeometry x="0.0595" y="-18" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-8" value="Delivery Request" style="startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;exitX=0.011;exitY=0.665;exitDx=0;exitDy=0;entryDx=0;entryDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="os53J_kxRLELNh4WxYDw-10" target="os53J_kxRLELNh4WxYDw-4">
+          <mxGeometry x="-0.1524" y="1" relative="1" as="geometry">
+            <mxPoint x="510" y="310" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-9" value="Receipt" style="startArrow=none;endArrow=block;exitX=1;exitY=0;rounded=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="os53J_kxRLELNh4WxYDw-10" target="os53J_kxRLELNh4WxYDw-1">
+          <mxGeometry x="-0.1362" y="22" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="176" />
+              <mxPoint x="650" y="40" />
+            </Array>
+            <mxPoint x="511" y="130" as="sourcePoint" />
+            <mxPoint x="480" y="80" as="targetPoint" />
+            <mxPoint x="16" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="414" y="150" width="176" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-11" value="Food Ordering System&lt;div&gt;MealVery&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="437" y="223" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.199;entryY=0.892;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="os53J_kxRLELNh4WxYDw-4" target="os53J_kxRLELNh4WxYDw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-17" value="Delivery Confirmation" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os53J_kxRLELNh4WxYDw-18" value="0.0" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="472" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qqYJFLezBmdcQKfJ6717-4" value="Order Status" style="startArrow=none;endArrow=block;entryX=0.175;entryY=0;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="0.2479" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="680" y="431" as="sourcePoint" />
+            <mxPoint x="550" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
