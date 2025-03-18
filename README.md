@@ -1,2 +1,3 @@
 # MealVery-DFD-UMLDiagrams
 MealVery-Food Ordering System(Swiggy Clone)
+The Data Flow Diagram (DFD) of MealVery illustrates how data moves through the system. It includes processes like user registration, account editing, billing, and receipt generation, with interactions between the user database and billing system. The Class Diagram structures the system into objects such as User, Restaurant, Food Menu, Shopping Cart, Order Details, and Delivery Person, defining attributes and operations. It manages authentication, food search, cart management, and order tracking. Together, the DFD visualizes data flow, while the class diagram establishes relationships between entities, ensuring efficient food ordering, billing, and delivery management in MealVery.
