@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="qYhVgzCR8L1_dIYBYUUM">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#63EAFF;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="20" width="150" height="1102" as="geometry" />
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-2" value="Web Application" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#63EAFF;" vertex="1" parent="1">
+          <mxGeometry x="377" y="20" width="150" height="1102" as="geometry" />
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-3" value="Backend &amp; Database (MySQL Server)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#63EAFF;" vertex="1" parent="1">
+          <mxGeometry x="690" y="10" width="291" height="1102" as="geometry" />
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-4" value="1. Visit website" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;strokeColor=#FF3333;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-1" target="8NMv-8bWpYRwNSnyqWfv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-5" value="4. Website loaded" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;strokeColor=#1A1A1A;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-2" target="8NMv-8bWpYRwNSnyqWfv-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-6" value="5. Login to make order" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;strokeColor=#FF3333;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-1" target="8NMv-8bWpYRwNSnyqWfv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-7" value="6. Validate user credentials" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;strokeColor=#FF3333;" edge="1" parent="1" target="8NMv-8bWpYRwNSnyqWfv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="240" />
+            </Array>
+            <mxPoint x="451.1666666666665" y="240" as="sourcePoint" />
+            <mxPoint x="810" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-8" value="7.Return validation result" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;strokeColor=#1A1A1A;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-3" target="8NMv-8bWpYRwNSnyqWfv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="643" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-9" value="8. User is logged in and can make order" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;strokeColor=#1A1A1A;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-2" target="8NMv-8bWpYRwNSnyqWfv-1">
+          <mxGeometry x="-0.0034" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="363" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-10" value="9. Browse restaurants and see foods" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;strokeColor=#FF3333;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-1" target="8NMv-8bWpYRwNSnyqWfv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282" y="411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-13" value="10. Show restaurants and their menu" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="460" />
+            </Array>
+            <mxPoint x="451.5" y="460" as="sourcePoint" />
+            <mxPoint x="43.96153846153857" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-14" value="11. Place order and add delivery info" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;strokeColor=#FF3333;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-1" target="8NMv-8bWpYRwNSnyqWfv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282" y="603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-15" value="12. The server calculates the total price" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;strokeColor=#FF3333;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-2" target="8NMv-8bWpYRwNSnyqWfv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="651" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-16" value="13. Return total price" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-3" target="8NMv-8bWpYRwNSnyqWfv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="643" y="699" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-17" value="14. Show confirmation page" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-2" target="8NMv-8bWpYRwNSnyqWfv-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="747" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-18" value="15. Confirm the order" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;strokeColor=#FF3333;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-1" target="8NMv-8bWpYRwNSnyqWfv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282" y="795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-19" value="16. Send details to the restaurant owner" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;strokeColor=#FF3333;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-2" target="8NMv-8bWpYRwNSnyqWfv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="843" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-20" value="17. Return order status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-3" target="8NMv-8bWpYRwNSnyqWfv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="643" y="891" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-21" value="18. Display order status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-2" target="8NMv-8bWpYRwNSnyqWfv-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="939" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-22" value="19. Order successfully completed and food received 🎉" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-1" target="8NMv-8bWpYRwNSnyqWfv-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="987" />
+              <mxPoint x="146" y="1017" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-23" value="2.Get Restaurant List" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#FF3333;strokeColor=#FF3333;" edge="1" parent="1" target="8NMv-8bWpYRwNSnyqWfv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="638" y="133" />
+            </Array>
+            <mxPoint x="450" y="133" as="sourcePoint" />
+            <mxPoint x="808" y="133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NMv-8bWpYRwNSnyqWfv-26" value="3.Return Data" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;strokeColor=#1A1A1A;" edge="1" parent="1" source="8NMv-8bWpYRwNSnyqWfv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="641" y="160" />
+            </Array>
+            <mxPoint x="808" y="160" as="sourcePoint" />
+            <mxPoint x="450" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
